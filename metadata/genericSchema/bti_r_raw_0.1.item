@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_KOIzMA4PEeaRuKcNNVLktA" comment="connectionComment" label="connectionLabel" dataPackage="_KOIzMQ4PEeaRuKcNNVLktA" mappingTypeUsed="true" mappingTypeId="hive_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_KOIzMQ4PEeaRuKcNNVLktA" dataManager="_KOIzMA4PEeaRuKcNNVLktA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_KOIzMg4PEeaRuKcNNVLktA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KOIzMw4PEeaRuKcNNVLktA" name="newColumn" id="7682" label="newColumn" length="-1" precision="-1" sourceType="STRING" talendType="id_String">
+        <initialValue xmi:id="_KOIzNA4PEeaRuKcNNVLktA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

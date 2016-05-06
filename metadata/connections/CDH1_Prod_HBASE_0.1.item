@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_NL6kYAvJEeaduOXzuklusg" dataPackage="_NL7LewvJEeaduOXzuklusg" DatabaseType="HBase" Port="2181" Username="hdfs" ServerName="hadoop1.alx" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_NL6kYQvJEeaduOXzuklusg" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_NL6kYgvJEeaduOXzuklusg" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_NL6kYwvJEeaduOXzuklusg" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_NL6kZAvJEeaduOXzuklusg" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="hadoop1.alx:8030"/>
+    <parameters xmi:id="_NL6kZQvJEeaduOXzuklusg" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_NL6kZgvJEeaduOXzuklusg" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://hadoop1.alx:8020"/>
+    <parameters xmi:id="_NL6kZwvJEeaduOXzuklusg" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_NL6kaAvJEeaduOXzuklusg" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="CLOUDERA"/>
+    <parameters xmi:id="_NL6kaQvJEeaduOXzuklusg" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+    <parameters xmi:id="_NL6kagvJEeaduOXzuklusg" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
+    <parameters xmi:id="_NL6kawvJEeaduOXzuklusg" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_VF2KgAvIEeaduOXzuklusg"/>
+    <parameters xmi:id="_NL7LcAvJEeaduOXzuklusg" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="hdfs/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_NL7LcQvJEeaduOXzuklusg" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_NL7LcgvJEeaduOXzuklusg" key="CONN_PARA_KEY_HBASE_VERSION" value="Cloudera_CDH5_5"/>
+    <parameters xmi:id="_NL7LcwvJEeaduOXzuklusg" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="hadoop1.alx:8032"/>
+    <parameters xmi:id="_NL7LdAvJEeaduOXzuklusg" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="hadoop1.alx:10020"/>
+    <parameters xmi:id="_NL7LdQvJEeaduOXzuklusg" key="CONN_PARA_KEY_HIVE_VERSION" value="Cloudera_CDH5_5"/>
+    <parameters xmi:id="_NL7LdgvJEeaduOXzuklusg" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_NL7LdwvJEeaduOXzuklusg" key="CONN_PARA_KEY_DB_SERVER" value="hadoop1.alx"/>
+    <parameters xmi:id="_NL7LeAvJEeaduOXzuklusg" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_NL7LeQvJEeaduOXzuklusg" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_NL7LegvJEeaduOXzuklusg" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_NL7LewvJEeaduOXzuklusg" name="HBase" dataManager="_NL6kYAvJEeaduOXzuklusg"/>
+</xmi:XMI>
